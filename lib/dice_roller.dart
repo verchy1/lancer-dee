@@ -19,7 +19,7 @@ class _DiceRollerState extends State<DiceRoller> {
     setState(() {
       diceRollAppValue = randomzier.nextInt(6) + 1;
     });
-    print("changement d'image...");
+    print("changement d'image....");
   }
 
   @override
